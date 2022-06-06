@@ -1,0 +1,202 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Nunito Sans', 'Arial', sans-serif;
+    font-size: 16px;
+}
+#china{
+    color: black !important;
+}
+h1, h2 {
+    font-family: 'Raleway', 'Helvetica', sans-serif;
+    font-weight: 300;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+h2 {
+    font-size: 2.5rem;
+}
+.material-icons {
+    position: relative;
+    top: 5px;
+}
+.container {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+    /* color:white; */
+}
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+}
+nav {
+    position: fixed;
+    top: 0;  
+    left: 0; 
+    width: 100%; 
+    color: white;
+    background-image: purple;
+    padding: 0.5rem;
+    padding-bottom: 1rem;
+}
+nav > ul {
+    display: inline;
+    padding: 0;
+    margin: 0;
+}
+li {
+    display: inline;
+    margin: 0 1rem;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+#menu a{
+    color:purple;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+}
+header {
+    color: white;
+    padding-top: 6rem;
+    padding-bottom: 1rem;
+    background-image: url('../img/fandom.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-color: #0084af;
+}
+footer p {
+    margin: 0;
+    line-height: 1.25;
+}
+.motto {
+    font-style: italic;
+    font-size: 1.25rem;
+}
+#menu {
+    background-color:rgba(128,0,128, 0.2);
+    line-height: 1.5;
+    color:black
+}
+#menu dt {
+    font-size: 1.75rem;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+footer p:last-child {
+    padding-top: 8px;
+}
+#menu dd {
+    margin: 0;
+}
+/* #menu img {
+    height: 300px;
+    width: 650px;
+    border-radius: 15px;
+} */
+#menu .statspic {
+    height:500px;
+    width:550px;
+}
+#about{
+    background-color: rgba(128,0,128, 0.2);
+    line-height: 1.5;
+    color:black
+}
+#mapImage{
+    width: 600px;  
+    height: auto;  
+    text-align: center;
+}
+
+footer {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    background-image: url('../img/fandom.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+a:hover {
+    color: #f0f0f0;
+    border-bottom: 0.8rem;
+    border-bottom-style: solid;
+    border-bottom-color: #f0f0f0;
+}
+.japan img{
+    max-width: 100% !important;
+    height: auto;
+}
+.weibo{
+    max-height: 200px;
+    padding-top: 5px;
+}
+.weiboRole{
+border-width: 6px;
+  border-color: white;
+  border-radius: 10px;
+  border-style: solid;
+  padding: 10px;
+  margin-top: 10px;
+}
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+    width: 25%;
+    padding: 20px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .div1 {
+    float: left;
+    padding: 10px;
+  }
+
+  .div2 {
+    padding: 10px;
+    flex-grow: 1;
+
+  }
+
+  .govImg{
+    width: 300px !important;
+    height: 350px !important;
+  }
+
+  .box{
+      display:flex;
+
+  }
+  .chat{
+      width: 200px !important;
+  }
+
+
+  .list{
+      margin-bottom: 100px !important;
+  }
+  .bts{
+      width: 220px !important;
+      height: 60px;
+      margin-bottom: 60px;   
+  }
+
+
+  
+  
